@@ -23,7 +23,7 @@ spec:
       terminationGracePeriodSeconds:
       containers:
       - name: hello-pod
-        image: deanorogers/getting-started-k8s:1.1
+        image: deanorogers/getting-started-k8s:1.2 
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
